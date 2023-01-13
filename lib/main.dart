@@ -1,8 +1,10 @@
+import 'package:easiest_shop/presentation/pages/auth/login/login_page.dart';
 import 'package:easiest_shop/presentation/pages/main_page.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get_navigation/get_navigation.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const GetMaterialApp(home: MyApp()));
 }
 
 class MyApp extends StatelessWidget {
@@ -13,9 +15,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         title: 'Flutter Demo',
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const MainPage());
+        home: const LoginPage());
   }
 }
