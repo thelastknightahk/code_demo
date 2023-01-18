@@ -1,6 +1,6 @@
 import 'package:easiest_shop/global/colors/colors.dart';
-import 'package:easiest_shop/global/widgets/auth_button_widget.dart';
-import 'package:easiest_shop/global/widgets/text_input_widget.dart';
+import 'package:easiest_shop/global/presentation/widgets/auth_button_widget.dart';
+import 'package:easiest_shop/global/presentation/widgets/text_input_widget.dart';
 import 'package:easiest_shop/presentation/pages/auth/signup/signup_page.dart';
 import 'package:easiest_shop/presentation/pages/main_page.dart';
 import 'package:flutter/material.dart';
